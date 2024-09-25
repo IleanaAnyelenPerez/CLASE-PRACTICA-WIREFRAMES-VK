@@ -3,93 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>VITNIK</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
     
     <header>
-        <img src="img/logo-vk.png" alt="logo de la marca de vitnik">
+        
         <nav>
+            <img src="img/logo-vk.png"class="logovk" alt="logo de la marca de vitnik">
+
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Catalagos</a></li>
-                <li><a href="#">Accesorios</a></li>
-                <li><a href="#">Contactos</a></li>
+                <li><a class="links" href="#">Inicio</a></li> 
+                <li><a class="links" href="#">Catalagos</a></li>
+                <li><a class="links" href="#">Contactos</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section>
-            <h1>LE CLUB</h1>
-            <img src="img/banner.jpg" alt="banner">
+        <section class="banner">
+
         </section>
 
-        <section>
+        <section class="titulobanner">
             <p>Life is a Sport!</p>
-            
-            
+
+        </section>
+        <section class="parrafo">
             <p>Empezamos con un sueño: crear una marca 
             sin límites, para todos!Crecimos con pasión,
             la que se refleja todos los días en prendas
             únicas, innovadoras y de calidad.</p>
-            <div>
-                <div>
-                    <img src="img/ropa-hombre.jpeg" alt="imagen ropa de hombre">
-                    <p>ROPA DE HOMBRES</p>
-
-                </div>
-
-                <div>
-                    <img src="img/mallas-hombres.jpeg" alt="imagen mallas de hombres">
-                    <p>MALLAS DE HOMBRES</p>
-    
-                </div>   
-            
-                <div>
-                    <img src="img/ropa-mujer.jpeg" alt="imagen ropa de mujer">
-                    <p>ROPA DE MUJER</p>
-                        
-                </div>
-
-                <div>
-                    <img src="img/mallas-mujeres.jpeg" alt="imagen mallas de mujeres">
-                    <p>MALLAS DE MUJERES</p>
-
-                </div>       
-                
-                <div>
-                    <img src="img/accesorios.jpeg" alt="imagen de accesorios">
-                    <p>ACESORIOS UNISEX</p>
-
-                </div>
-    
-            </div>
         </section>
-        <section>
+        <section class="contenedor">
+            <section>
+                    <img class="ropa-hombre" src="img/ropa-hombre.jpeg" alt="imagen ropa de hombre">
+                    <a  class="title" href="#">CATALOGO MASCULINO</a>
+
+            </section>
+
+            <section>
+                    <img class="mallasmasculinas" src="img/mallas-hombres.jpeg" alt="imagen mallas de hombres">
+                    <a  class="title" href="#">MALLAS MASCULINAS</a>
+    
+            </section>   
+            
+            <section>
+                    <img class="catalogofemenino" src="img/banner.jpg" alt="imagen ropa de mujer">
+                    <a  class="title" href="#">CATALOGO FEMENINO</a>
+                        
+            </section>
+
+            <section>
+                    <img class="mallasfemeninas" src="img/mallas-mujeres.jpeg" alt="imagen mallas de mujeres">
+                    <a  class="title" href="#">MALLAS FEMENINAS</a>
+
+            </section> 
+
+        </section>
+        <section class="formulario">
                 <form action="">
                     <h2>EMPRENDÉ CON VITNIK</h2>
                     <Label for="name">Nombre</Label>
                     <input type="text" name="name">
+
                     <label for="apellido">Apellido</label>
                     <input type="text" name="apellido">
+
                     <label for="email">Email</label>
                     <input type="email" name="email">
 
                 </form>
+        </section>
 
-                 <img src="img/formulario.jpg" alt="imagen de publicidad que acompaña al formulario">
+        <section>
+               <img class="imagenformulario" src="img/formulario.jpg" alt="imagen de publicidad que acompaña al formulario">
         </section>
     </main>
 
-    <footer>
-        <img src="img/logo-vk.png" alt="imagen logo vitnik">
+    <footer class="piedepagina">
+        <h1>Contactos</h1>
 
-        <div>
-            <a href="#"><i>Icono</i>Instagram</a>
-            <a href="#"><i>Icono</i>Watsap</a>
-            
+        <div class="redessociales">
+
+            <a href="https:/www.instagram.com/vitnikoficial"target=_blank><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/reel/DAGR5YUo0pv/?igsh=NnRvNjhjZ2I5cml4"target=_blank><i class="bi bi-instagram"></i></a>
+            <a href="#"target=_blank><i class="bi bi-whatsapp"></i></a>
+
         </div>
+
     </footer>
 </body>
 </html>
